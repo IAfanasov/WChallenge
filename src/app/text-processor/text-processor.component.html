@@ -1,0 +1,13 @@
+<h2>Highlight text</h2>
+<app-color-picker #highlightColorPicker
+                  [colors]='availableColors'
+                  (selectedColorChange)='onHighlightColorChange($event)'></app-color-picker>
+
+<app-text-editor></app-text-editor>
+
+<h2>Filter highlighted excerpts</h2>
+<app-color-picker [colors]='availableColors'
+                  (selectedColorChange)='onFilterColorChange($event)'></app-color-picker>
+
+<app-selection-display [filterColor]='filterColor'
+                       [html]='textEditorElement.nativeElement.innerHTML'></app-selection-display>

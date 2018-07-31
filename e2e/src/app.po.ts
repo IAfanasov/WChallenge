@@ -5,7 +5,7 @@ export class AppPage {
     return browser.get('/');
   }
 
-  getParagraphText() {
-    return element(by.css('app-root h1')).getText();
+  getTextProcessorComponentTag() {
+    return element(by.css('app-text-processor'));
   }
 }

@@ -1,0 +1,14 @@
+.color-picker-container {
+    display: flex;
+}
+
+.color-picker-block {
+    width: 60px;
+    height: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    &.selected{
+      border: solid 4px black;
+    }
+}

@@ -1,0 +1,9 @@
+<div class='color-picker-container'>
+  <div *ngFor='let color of colors'
+       class='color-picker-block'
+       [class.selected]='color === selectedColor'
+       [style.backgroundColor]='color'
+       (mousedown)='colorSelected(color)'
+       (mouseup)='restoreSelection()'>
+  </div>
+</div>
