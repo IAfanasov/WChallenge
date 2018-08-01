@@ -1,6 +1,15 @@
 # WChallenge
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+Node v9.4+
+Npm 5.10+
+
+## Requirements
+Install global dependencies:
+- Node v9.4+
+- Npm 5.10+
+
+Then run `npm i`
 
 ## Start the app
 
